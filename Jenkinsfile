@@ -1,4 +1,6 @@
 pipeline {
+	 String cfHome = tool 'cf_cli'
+  	String adpOrganization = "gdf"
     agent any
     stages {
 		
@@ -11,6 +13,9 @@ pipeline {
         stage('deploy to CF') {
             steps {
                bat 'C://"Program Files/Cloud Foundry"//cf login -a https://api.run.pivotal.io -u prothoma4@gmail.com -p Soupro@21 --skip-ssl-validation'
+           	   bat 'C://"Program Files/Cloud Foundry"//cf target -o  prothoma4-org -s development'
+        	   bat 'C://"Program Files/Cloud Foundry"//cf calcapp -f manifest.yml'
+           
             }
         }
     }
