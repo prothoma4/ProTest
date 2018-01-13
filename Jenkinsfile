@@ -1,6 +1,5 @@
 pipeline {
-	 String cfHome = tool 'cf_cli'
-  	String adpOrganization = "gdf"
+	
     agent any
     stages {
 		
