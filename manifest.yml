@@ -2,7 +2,7 @@
 applications:
 - name: calcapp
   buildpack: java_buildpack
-  path: target/ProTest-0.0.1-SNAPSHOT.jar
+  path: target/MyCalcApp-0.0.1-SNAPSHOT.jar
   memory: 768M
   instances: 1
   routes:
