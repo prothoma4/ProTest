@@ -1,0 +1,22 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 0860-F2AE
+
+ Directory of C:\Prothoma\Workspaces\WS_Perfcenter\MyCalcApp
+
+13.01.2018  23:04    <DIR>          .
+13.01.2018  23:04    <DIR>          ..
+13.01.2018  17:21             1.226 .classpath
+13.01.2018  17:21               249 .gitignore
+13.01.2018  17:21    <DIR>          .mvn
+13.01.2018  17:24             1.122 .project
+13.01.2018  17:24    <DIR>          .settings
+13.01.2018  23:04                 0 file1
+13.01.2018  18:00               619 Jenkinsfile
+13.01.2018  17:57               187 manifest.yml
+13.01.2018  17:21             6.468 mvnw
+13.01.2018  17:21             4.994 mvnw.cmd
+13.01.2018  17:24             1.834 pom.xml
+13.01.2018  17:21    <DIR>          src
+13.01.2018  17:25    <DIR>          target
+               9 File(s)         16.699 bytes
+               6 Dir(s)  424.632.946.688 bytes free
